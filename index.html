@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김수정의 포트폴리오</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+        .container h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        .container p {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .projects {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .project {
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .project img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .project h3 {
+            font-size: 1.25rem;
+            margin: 10px 0;
+        }
+        .project button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            margin: 10px 0 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .project button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>김수정의 포트폴리오</h1>
+        <p>안녕하세요, 풀스택 개발자를 희망하는 김수정입니다.<br>제 프로젝트를 소개합니다.</p>
+        <div class="projects">
+            <div class="project">
+                <img src="tennis.jpg" alt="테니스 이미지">
+                <h3>쇼핑몰 프로젝트</h3>
+                <button>자세히 보기</button>
+            </div>
+            <div class="project">
+                <img src="books.jpg" alt="도서 이미지">
+                <h3>도서 구매 사이트</h3>
+                <button>자세히 보기</button>
+            </div>
+            <div class="project">
+                <img src="concert.jpg" alt="공연 이미지">
+                <h3>공연 예약 사이트</h3>
+                <button>자세히 보기</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
